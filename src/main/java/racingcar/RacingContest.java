@@ -13,9 +13,9 @@ public class RacingContest {
         this.lapCount = lapCount;
     }
 
-    public void start(List<Car> cars) {
+    public void start(Cars cars) {
         for (int i = 0; i < lapCount; i++) {
-            Lap lap = new Lap(new Cars(cars));
+            Lap lap = new Lap(cars);
             lap.start();
             this.laps.addLap(lap);
         }

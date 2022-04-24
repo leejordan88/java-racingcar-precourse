@@ -13,5 +13,7 @@ public class RacingMessage {
     public static final String MESSAGE_WINNERS_PRE_FIX = "최종 우승자는 ";
     public static final String MESSAGE_WINNERS_POST_FIX = "입니다.";
     public static final String MESSAGE_COMMA = ",";
+    public static final String MESSAGE_QUESTION_CAR_NAMES = "경주할 자동차 이름을 입력하세요.(이름은 쉼표(,) 기준으로 구분)";
+    public static final String MESSAGE_QUESTION_LAP_COUNT = "시도할 회수는 몇회인가요?";
 
 }
