@@ -33,8 +33,8 @@ public class RacingContest {
         for (Car winner : winners) {
             sb.append(winner.getName()).append(MESSAGE_COMMA).append(MESSAGE_SPACE);
         }
-        sb.deleteCharAt(sb.length() - 2).append(MESSAGE_WINNERS_POST_FIX);
-        return sb.toString();
+        sb.deleteCharAt(sb.length() - 2);
+        return sb.toString().trim();
     }
 
 }
